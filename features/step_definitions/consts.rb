@@ -8,7 +8,10 @@ $shobinist_sentances = ["תחזרו למטבח","אין מה לעשות, יש ד
 $facebook_profiles = ["wisertroll1@gmail.com","hacktroller1@gmail.com"]
 $facebook_password = "Wiser123"
 
-$feminist_groups = ["https://www.facebook.com/groups/371276586316942/","https://www.facebook.com/groups/775753762460672/"]
-$shobinist_groups = ["https://www.facebook.com/groups/605994922747003/"]
-#$shobinist_groups = ["https://www.facebook.com/groups/1647344378834674/"]
+$feminist_groups = ["https://www.facebook.com/groups/371276586316942/"]
+$shobinist_groups = ["https://www.facebook.com/groups/605994922747003/","https://www.facebook.com/groups/775753762460672/"]
+$yemani_groups = ["https://www.facebook.com/groups/1585722058328609/"]
+$tivoni_groups = ["https://www.facebook.com/groups/811Israel/","https://www.facebook.com/groups/veganism.israel/"]
+$smolani_groups = ["https://www.facebook.com/groups/128876640518538/"]
+$karnivor_group = ["https://www.facebook.com/groups/545756345451295/","https://www.facebook.com/groups/848119098586492/"]
 
