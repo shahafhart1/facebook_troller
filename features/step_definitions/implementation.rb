@@ -63,9 +63,127 @@ Given /I post the saved link/ do
   sleep 1
   find(".uiTextareaAutogrow.input.autofocus._34z-.mentionsTextarea.textInput").native.send_keys(:enter)
   sleep 1
-  #find("div#u_0_1s div.wrap").click
-  #sleep 1
-
-  #find("button._42ft._4jy0._11b._4jy3._4jy1.selected._51sy").click
-   binding.pry
+  find("button._42ft._4jy0._11b._4jy3._4jy1.selected._51sy").click
+  sleep 10
 end
+
+Given /I comment a random feminist comment on a random post/ do
+    #binding.pry
+    #sleep 10
+    #all("._5ywb")[0].click
+    #all("._5ywb._5ywc")[0].set("asassasaasasas")
+    #binding.pry
+end
+
+Given /I comment a random karnivor comment on a random post/ do
+    #binding.pry
+    #sleep 10
+    #all("._5ywb")[0].click
+    #all("._5ywb._5ywc")[0].set("asassasaasasas")
+    #binding.pry
+end
+
+Given /I comment a random shobinist comment on a random post/ do
+    #binding.pry
+    #sleep 10
+    #all("._5ywb")[0].click
+    #all("._5ywb._5ywc")[0].set("asassasaasasas")
+    #binding.pry
+end
+
+Given /I comment a random smolani comment on a random post/ do
+    #binding.pry
+    #sleep 10
+    #all("._5ywb")[0].click
+    #all("._5ywb._5ywc")[0].set("asassasaasasas")
+    #binding.pry
+end
+
+Given /I comment a random tivoni comment on a random post/ do
+    #binding.pry
+    #sleep 10
+    #all("._5ywb")[0].click
+    #all("._5ywb._5ywc")[0].set("asassasaasasas")
+    #binding.pry
+end
+
+Given /I comment a random yemani comment on a random post/ do
+    #binding.pry
+    #sleep 10
+    #all("._5ywb")[0].click
+    #all("._5ywb._5ywc")[0].set("asassasaasasas")
+    #binding.pry
+end
+
+Given /I post a random feminist post/ do
+  random_num = $feminist_sentances.count
+  find(".uiTextareaAutogrow.input.autofocus._34z-.mentionsTextarea.textInput").click
+  sleep 1
+  find(".uiTextareaAutogrow.input.autofocus._34z-.mentionsTextarea.textInput").set($feminist_sentances[rand(random_num)])
+  sleep 1
+  find(".uiTextareaAutogrow.input.autofocus._34z-.mentionsTextarea.textInput").native.send_keys(:enter)
+  sleep 1
+  find("button._42ft._4jy0._11b._4jy3._4jy1.selected._51sy").click
+  sleep 10
+end
+
+Given /I post a random karnivor post/ do
+  random_num = $karnivor_sentances.count
+  find(".uiTextareaAutogrow.input.autofocus._34z-.mentionsTextarea.textInput").click
+  sleep 1
+  find(".uiTextareaAutogrow.input.autofocus._34z-.mentionsTextarea.textInput").set($karnivor_sentances[rand(random_num)])
+  sleep 1
+  find(".uiTextareaAutogrow.input.autofocus._34z-.mentionsTextarea.textInput").native.send_keys(:enter)
+  sleep 1
+  find("button._42ft._4jy0._11b._4jy3._4jy1.selected._51sy").click
+  sleep 10
+end
+
+Given /I post a random shobinist post/ do
+  random_num = $shobinist_sentances.count
+  find(".uiTextareaAutogrow.input.autofocus._34z-.mentionsTextarea.textInput").click
+  sleep 1
+  find(".uiTextareaAutogrow.input.autofocus._34z-.mentionsTextarea.textInput").set($shobinist_sentances[rand(random_num)])
+  sleep 1
+  find(".uiTextareaAutogrow.input.autofocus._34z-.mentionsTextarea.textInput").native.send_keys(:enter)
+  sleep 1
+  find("button._42ft._4jy0._11b._4jy3._4jy1.selected._51sy").click
+  sleep 10
+end
+
+Given /I post a random smolani post/ do
+  random_num = $smolani_sentances.count
+  find(".uiTextareaAutogrow.input.autofocus._34z-.mentionsTextarea.textInput").click
+  sleep 1
+  find(".uiTextareaAutogrow.input.autofocus._34z-.mentionsTextarea.textInput").set($smolani_sentances[rand(random_num)])
+  sleep 1
+  find(".uiTextareaAutogrow.input.autofocus._34z-.mentionsTextarea.textInput").native.send_keys(:enter)
+  sleep 1
+  find("button._42ft._4jy0._11b._4jy3._4jy1.selected._51sy").click
+  sleep 10
+end
+
+Given /I post a random tivoni post/ do
+  random_num = $tivoni_sentances.count
+  find(".uiTextareaAutogrow.input.autofocus._34z-.mentionsTextarea.textInput").click
+  sleep 1
+  find(".uiTextareaAutogrow.input.autofocus._34z-.mentionsTextarea.textInput").set($tivoni_sentances[rand(random_num)])
+  sleep 1
+  find(".uiTextareaAutogrow.input.autofocus._34z-.mentionsTextarea.textInput").native.send_keys(:enter)
+  sleep 1
+  find("button._42ft._4jy0._11b._4jy3._4jy1.selected._51sy").click
+  sleep 10
+end
+
+Given /I post a random yemani post/ do
+  random_num = $yemani_sentances.count
+  find(".uiTextareaAutogrow.input.autofocus._34z-.mentionsTextarea.textInput").click
+  sleep 1
+  find(".uiTextareaAutogrow.input.autofocus._34z-.mentionsTextarea.textInput").set($yemani_sentances[rand(random_num)])
+  sleep 1
+  find(".uiTextareaAutogrow.input.autofocus._34z-.mentionsTextarea.textInput").native.send_keys(:enter)
+  sleep 1
+  find("button._42ft._4jy0._11b._4jy3._4jy1.selected._51sy").click
+  sleep 10
+end
+
