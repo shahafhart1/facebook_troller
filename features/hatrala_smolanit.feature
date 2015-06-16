@@ -8,9 +8,9 @@ Feature: Hatrala Smolanit
     And I go to a random yemani group
     And I post the saved link
 
-#  Scenario: Comment in a yemani post
-#    And I go to a random yemani group
-#    And I comment a random smolani comment on a random post
+  Scenario: Comment in a yemani post
+    And I go to a random yemani group
+    And I comment a random smolani comment on a random post
 
   Scenario: Post a random smolani post
     And I go to a random yemani group

@@ -68,51 +68,39 @@ Given /I post the saved link/ do
 end
 
 Given /I comment a random feminist comment on a random post/ do
-    #binding.pry
-    #sleep 10
-    #all("._5ywb")[0].click
-    #all("._5ywb._5ywc")[0].set("asassasaasasas")
-    #binding.pry
+  random_num = $feminist_sentances.count
+  all("div._54-z")[0].native.send_keys($feminist_sentances[rand(random_num)])
+  all("div._54-z")[0].native.send_keys(:enter)
 end
 
 Given /I comment a random karnivor comment on a random post/ do
-    #binding.pry
-    #sleep 10
-    #all("._5ywb")[0].click
-    #all("._5ywb._5ywc")[0].set("asassasaasasas")
-    #binding.pry
+      random_num = $karnivor_sentances.count
+      all("div._54-z")[0].native.send_keys($karnivor_sentances[rand(random_num)])
+      all("div._54-z")[0].native.send_keys(:enter)
 end
 
 Given /I comment a random shobinist comment on a random post/ do
-    #binding.pry
-    #sleep 10
-    #all("._5ywb")[0].click
-    #all("._5ywb._5ywc")[0].set("asassasaasasas")
-    #binding.pry
+      random_num = $shobinist_sentances.count
+      all("div._54-z")[0].native.send_keys($shobinist_sentances[rand(random_num)])
+      all("div._54-z")[0].native.send_keys(:enter)
 end
 
 Given /I comment a random smolani comment on a random post/ do
-    #binding.pry
-    #sleep 10
-    #all("._5ywb")[0].click
-    #all("._5ywb._5ywc")[0].set("asassasaasasas")
-    #binding.pry
+     random_num = $smolani_sentances.count
+     all("div._54-z")[0].native.send_keys($smolani_sentances[rand(random_num)])
+     all("div._54-z")[0].native.send_keys(:enter)
 end
 
 Given /I comment a random tivoni comment on a random post/ do
-    #binding.pry
-    #sleep 10
-    #all("._5ywb")[0].click
-    #all("._5ywb._5ywc")[0].set("asassasaasasas")
-    #binding.pry
+      random_num = $tivoni_sentances.count
+      all("div._54-z")[0].native.send_keys($tivoni_sentances[rand(random_num)])
+      all("div._54-z")[0].native.send_keys(:enter)
 end
 
 Given /I comment a random yemani comment on a random post/ do
-    #binding.pry
-    #sleep 10
-    #all("._5ywb")[0].click
-    #all("._5ywb._5ywc")[0].set("asassasaasasas")
-    #binding.pry
+      random_num = $yemani_sentances.count
+      all("div._54-z")[0].native.send_keys($yemani_sentances[rand(random_num)])
+      all("div._54-z")[0].native.send_keys(:enter)
 end
 
 Given /I post a random feminist post/ do
