@@ -36,25 +36,25 @@ Given /I go to a random karnivor group/ do
   sleep 5
 end
 
-Given /I go to a random smolanit group/ do
-  random_num = $smolanit_groups.count
-  visit $smolanit_groups[rand(random_num)]
+Given /I go to a random smolani group/ do
+  random_num = $smolani_groups.count
+  visit $smolani_groups[rand(random_num)]
   sleep 5
   find("span._55pe")
   sleep 5
 end
 
-Given /I go to a random tivonit group/ do
-  random_num = $tivonit_groups.count
-  visit $tivonit_groups[rand(random_num)]
+Given /I go to a random tivoni group/ do
+  random_num = $tivoni_groups.count
+  visit $tivoni_groups[rand(random_num)]
   sleep 5
   find("span._55pe")
   sleep 5
 end
 
-Given /I go to a random yemanit group/ do
-  random_num = $yemanit_groups.count
-  visit $yemanit_groups[rand(random_num)]
+Given /I go to a random yemani group/ do
+  random_num = $yemani_groups.count
+  visit $yemani_groups[rand(random_num)]
   sleep 5
   find("span._55pe")
   sleep 5
