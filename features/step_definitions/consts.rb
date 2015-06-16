@@ -5,11 +5,11 @@ $yemani_sentances = ["כהנא צדק","מירי רגב","מירי רגב שול
 $feminist_sentances = ["זו ההגדרה של פטריארכיה","האשמת הקורבן!"]
 $shobinist_sentances = ["תחזרו למטבח","אין מה לעשות, יש דברים שנשים פחות טובות בהם"]
 
-$facebook_profiles = ["wisertroll1@gmail.com","hacktroller1@gmail.com"]
+$facebook_profiles = ["hacktroller1@gmail.com"]
 $facebook_password = "Wiser123"
 
 $feminist_groups = ["https://www.facebook.com/groups/371276586316942/"]
-$shobinist_groups = ["https://www.facebook.com/groups/605994922747003/","https://www.facebook.com/groups/775753762460672/"]
+$shobinist_groups = ["https://www.facebook.com/groups/605994922747003/"]
 $yemani_groups = ["https://www.facebook.com/groups/1585722058328609/"]
 $tivoni_groups = ["https://www.facebook.com/groups/811Israel/","https://www.facebook.com/groups/veganism.israel/"]
 $smolani_groups = ["https://www.facebook.com/groups/128876640518538/"]
